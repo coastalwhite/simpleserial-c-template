@@ -30,7 +30,7 @@ PLATFORM=CWLITEARM SS_VER=SS_VER_2 make
 ```
 
 To run the _Python 3_ capturing code, we first need the newest version of the
-ChipWhiperer python library. Then we can run `python3 capture_traces.py` in the
+ChipWhiperer python library. Then we can run `python3 capture_trace.py` in the
 root directory.
 
 ## Contribution
