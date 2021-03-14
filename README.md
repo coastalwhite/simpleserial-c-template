@@ -6,6 +6,14 @@ for our target executed binary and with an example _Python 3_ file to do our
 ChipWhisperer traces. The _Python3_ code is currently only suited for the
 STM32F targets, but this could easily be adjusted.
 
+## SimpleSerial Protocol and ChipWhisperer
+
+More info on the SimpleSerial V2 protocol can be found
+[here](https://github.com/newaetech/chipwhisperer/blob/develop/hardware/victims/firmware/simpleserial/README.md).
+
+More info on the ChipWhisperer framework can be found
+[here](https://github.com/newaetech/chipwhisperer).
+
 ## Usage
 
 One can adjust the `main.c` as one sees fit to implement their own algorithm.
