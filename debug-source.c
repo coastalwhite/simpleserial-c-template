@@ -65,7 +65,7 @@ void simpleserial_put(uint8_t cmd, uint8_t len, uint8_t* buf) {
             printf("\n");
     }
 
-    printf("\n]");
+    printf("\n]\n");
 }
 void simpleserial_addcmd(uint8_t cmd, uint8_t len, uint8_t (*f)(uint8_t cmd, uint8_t scmd, uint8_t len, uint8_t *buf)) {
     printf("Listening for '%c' on SS with preferred len %u\n", cmd, len);
