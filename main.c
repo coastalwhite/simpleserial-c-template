@@ -8,6 +8,10 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+#define SS_VER 2
+
+#include "simpleserial/simpleserial.h"
+
 /// This function will handle the 'p' command send from the capture board.
 /// It returns the squared version of the scmd given.
 /// It does this in approximately equal time, which allows us to see clear

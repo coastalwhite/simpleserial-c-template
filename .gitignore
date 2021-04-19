@@ -6,3 +6,5 @@ objdir
 *.lss
 *.map
 *.sym
+
+debug-target

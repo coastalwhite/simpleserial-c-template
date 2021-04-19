@@ -17,21 +17,26 @@ More info on the ChipWhisperer framework can be found
 ## Usage
 
 One can adjust the `main.c` as one sees fit to implement their own algorithm.
-Then one can compile it by running `PLATFORM={PLATFORM} SS_VER=SS_VER_2 make` in
-the root directory (with `{PLATFORM}` being the target platform). One can look
-in the `PLATFORMS.md` for a table provided by the ChipWhisperer framework of
-supported platforms.
-
-### Example
-
-For the 32-bit ChipWhisperer Lite ARM-edition one would run.
-```shell
-PLATFORM=CWLITEARM SS_VER=SS_VER_2 make
-```
+Setting one of the platforms speicified in the *PLATFORMS.md* in the *makefile*
+will create the output files for that specified platform. By default it is set
+to the `CWLITEARM`.
 
 To run the _Python 3_ capturing code, we first need the newest version of the
 ChipWhiperer python library. Then we can run `python3 capture_trace.py` in the
 root directory.
+
+## Debugging
+
+It is possible to use `make debugging` to make *debug-target* executable with
+which you can do some rough debugging. You can also check the `DEBUGGING`
+constant if you want to add some conditional statement for debugging. For
+example:
+
+```c
+#ifdef DEBUGGING
+printf("I was here in debugging mode!\n");
+#endif
+```
 
 ## Contribution
 
