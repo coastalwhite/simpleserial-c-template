@@ -16,6 +16,9 @@ More info on the ChipWhisperer framework can be found
 
 ## Usage
 
+> Note: when using this repository remember to pull in the submodule with 
+> `git submodule update --init`.
+
 One can adjust the `main.c` as one sees fit to implement their own algorithm.
 Setting one of the platforms speicified in the *PLATFORMS.md* in the *makefile*
 will create the output files for that specified platform. By default it is set
