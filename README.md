@@ -20,12 +20,12 @@ More info on the ChipWhisperer framework can be found
 > `git submodule update --init`.
 
 One can adjust the `main.c` as one sees fit to implement their own algorithm.
-Setting one of the platforms speicified in the *PLATFORMS.md* in the *makefile*
+Setting one of the platforms specified in the *PLATFORMS.md* in the *makefile*
 will create the output files for that specified platform. By default it is set
 to the `CWLITEARM`.
 
 To run the _Python 3_ capturing code, we first need the newest version of the
-ChipWhiperer python library. Then we can run `python3 capture_trace.py` in the
+ChipWhisperer python library. Then we can run `python3 capture_trace.py` in the
 root directory.
 
 ## Debugging
