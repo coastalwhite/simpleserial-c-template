@@ -24,6 +24,10 @@ Setting one of the platforms specified in the *PLATFORMS.md* in the *makefile*
 will create the output files for that specified platform. By default it is set
 to the `CWLITEARM`.
 
+> Note: It is expected that both the toolchain for compiling is properly
+> installed. For the ARM products this consists of the `arm-none-eabi-gcc`
+> toolchain and the ARM standard library.
+
 To run the _Python 3_ capturing code, we first need the newest version of the
 ChipWhisperer python library. Then we can run `python3 capture_trace.py` in the
 root directory.
