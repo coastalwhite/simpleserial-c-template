@@ -36,7 +36,7 @@ TARGET = simpleserial-target
 # Header files (.h) are automatically pulled in.
 SRC += main.c
 
-SS_VER=SS_VER_2_0
+SS_VER=SS_VER_2_1
 PLATFORM=CWLITEARM
 
 # -----------------------------------------------------------------------------

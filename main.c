@@ -8,7 +8,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-#define SS_VER 2
+#define SS_VER SS_VER_2_1
 
 #include "simpleserial/simpleserial.h"
 
